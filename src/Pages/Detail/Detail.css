@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+.detail{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Caveat', cursive;
+    font-size: 1.5rem;
+}
+
+.detail .left{
+    width: 40%;
+    height: 100%;
+}
+.detail .left img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+.detail .right{
+    width: 60%;
+    margin-left: 40px;
+
+}
+.detail .right h1{
+    margin-left: 40px;
+}
+.detail .right .status{
+    margin-left: 270px;
+}
+.detail .right .active{
+    color: rgb(10, 233, 10);
+    font-size:small;
+}
+.detail .right .nactive{
+    color: rgb(234, 11, 11);
+    font-size:small;
+}
+.detail .right .language{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.detail .right .generes{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.detail .right .generes span{
+    border: 2px solid rgb(40, 38, 38);
+    background-color:rgb(40, 39, 39) ;
+    border-radius: 13px;
+    padding: 4px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.detail .right .runtime{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.detail .right .rating{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.detail .right .summary div{
+    margin-left: 90px;
+    margin: 2px solid red;
+}
